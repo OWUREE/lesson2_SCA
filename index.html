@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Login Form</title>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid-container">
+            <div>
+                <h1>Let's work together</h1>
+                <p>we'd love to hear from you! Send us a message using the</br>  form opposite, or email us. we'd love to hear from you! Send</br>  us a message using the form oppposite, or email us.
+                </p>
+                <form id="input-form" action="confirm.html" method="POST">
+                    <div id="flex-container">
+                        <label class="name-label">
+                            First name<br><input class="first-child" type="text"  name="text-box" required  >
+                            </label><br>
+                            <label class="name-label">
+                                Last name<br><input class="first-child" type="text" name="text-box" required ><br>  
+                                </label>
+                    </div>
+                    <label id="email-label">
+                      Email<br><input id="email" type="email" name="text-box" required><br>
+                      </label>
+                      <label class="name-label">
+                        Company<br><input class="name" type="text" name="text-box" required><br>    
+                        </label>
+                        <label class="name-label">
+                            Phone<br><input class="name" type="text" placeholder="optional" name="text-box" optional><br>    
+                            </label>
+                            How can we help you?<br>
+                            <textarea id="textarea" rows="5" cols="50" name="text-box"></textarea><br><br>
+                            Expected budget<br>
+                            <input type="radio" name="options" value="Less than $25k" class="radio">
+                          <label for="">Less than $25k</label>
+                          <br>
+                          <input type="radio" name="options" value="$25k - $50k" class="radio">
+                          <label for="">$25k - $50k</label>
+                          <br>
+                          <input type="radio" name="options" value="$50k - $100k" class="radio">
+                          <label for="">$50k - $100k</label>
+                          <br>
+                          <input type="radio" name="options" value=" $100k+" class="radio">
+                          <label for="">$100k+</label>
+                          <br><br>
+                          <label class="name-label">
+                           How did you hear about us?<br><input class="name" type="text" name="text-box" required><br>    
+                            </label>
+                            <button id="submit" type="submit"> Submit</button>
+                </form>               
+                       
+            </div>
+            <div id="images">
+                <img src="images/image1.PNG" class="responsive">
+                <img src="images/image2.PNG" class="responsive"> 
+                <img src="images/image3.PNG" class="responsive"> 
+                <img src="images/image4.PNG" class="responsive"> 
+            </div>
+        </section>
+        
+       
+    </body>
+</html>
