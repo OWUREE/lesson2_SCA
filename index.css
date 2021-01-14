@@ -3,7 +3,7 @@ body{
     width:100%;
     font-size:20px;
     font-family:'poppins','sans-serif';
-    background-color:white;
+    background-color:darkslategrey;
     overflow: scroll;
 }
 #grid-container{
@@ -91,4 +91,20 @@ textarea{
     height: auto;
     height: 250px;
     max-width: 500px;
+}
+@media screen and (max-width:900px){
+    #submit{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4px 10px;
+    width: 25%;
+    }
+}
+@media screen and (max-width:600px){
+    #submit{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px 8px;
+    width: 30%;
+    }
 }
